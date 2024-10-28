@@ -616,3 +616,21 @@
 .elementor-element .elementor-element-495fad5-1 .elementor-element-9995b74 {
     text-align: end;
 }
+
+@media only screen and (min-width: 1600px) {
+    .elementor-679 .elementor-element.elementor-element-7476a29 {
+        padding: 328px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .elementor-679 .elementor-element.elementor-element-a29e3bb {
+        width: 100%;
+    }
+    .elementor-679 .elementor-element.elementor-element-a29e3bb>.elementor-element-populated {
+        justify-content: center;
+    }
+    .elementor-679 .elementor-element.elementor-element-495fad5>.elementor-element-populated {
+        padding: 0px 25px 0px 25px;
+    }
+}

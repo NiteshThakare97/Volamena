@@ -1552,7 +1552,7 @@ body:not(.rtl) .elementor-9 .elementor-element.elementor-element-5aff089 .elemen
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 38px 0px 10px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .elementor-9 .elementor-element.elementor-element-1524b6c.elementor-column>.elementor-widget-wrap {
@@ -2632,7 +2632,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
         padding: 50px 30px 50px 30px;
     }
     .elementor-9 .elementor-element.elementor-element-1b106eb>.elementor-element-populated {
-        padding: 20px 20px 20px 10px;
+        padding: 20px 10px 20px 10px;
     }
     .elementor-bc-flex-widget .elementor-9 .elementor-element.elementor-element-0b8e600.elementor-column .elementor-widget-wrap {
         align-items: center;
@@ -3317,9 +3317,15 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     z-index: -1;
 }
 
-.elementor-element-1524b6c {
+.elementor-element-1524b6c-1 {
     align-items: end;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#elementor-element-1524b6c-1 {
+    position: absolute;
+    top: 14%;
+    right: 9%;
 }
 
 
@@ -3406,6 +3412,21 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     }
 }
 
+@media only screen and (min-width: 1600px) {
+    .elementor-9 .elementor-element.elementor-element-0528ceb {
+        padding: 255px 0px 250px 0px;
+    }
+    .elementor-9 .elementor-element.elementor-element-9431e6e {
+        padding: 117px 0px 172px 0px;
+    }
+    .elementor-9 .elementor-element.elementor-element-9187293 {
+        padding: 110px 0px 63px 0px;
+    }
+    .elementor-9 .elementor-element.elementor-element-343ac51 {
+        padding: 140px 0px 295px 0px;
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     #elementor-element-b107090-2 {
         margin: 0px 0px 0px 30px;
@@ -3439,6 +3460,13 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     .elementor-element-52abad1 .elementor-container {
         justify-content: center;
     }
+    #elementor-element-1524b6c-1 {
+        top: 25%;
+        right: -2%;
+    }
+    #elementor-element-1524b6c-1 img {
+        width: 78%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3466,5 +3494,10 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     .elementor-9 .elementor-element.elementor-element-1576899 {
         margin-top: -20px;
         background: #030b16;
+    }
+    #elementor-element-1524b6c-1 {
+        top: -27px;
+        right: -1%;
+        width: 30%;
     }
 }
