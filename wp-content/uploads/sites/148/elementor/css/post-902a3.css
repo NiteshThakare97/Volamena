@@ -14,7 +14,7 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 190px 0px 82px 0px;
+    padding: 180px 0px 80px 0px;
 }
 
 .elementor-9 .elementor-element.elementor-element-1fe0429>.elementor-element-populated {
@@ -25,7 +25,7 @@
 }
 
 .elementor-9 .elementor-element.elementor-element-a48e697>.elementor-widget-container {
-    margin: 0px -100px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -2257,7 +2257,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
         padding: 0px 0px 0px 0px;
     }
     .elementor-9 .elementor-element.elementor-element-a48e697>.elementor-widget-container {
-        margin: 0px -100px 0px 0px;
+        margin: 0px -55px 0px 0px;
     }
     .elementor-9 .elementor-element.elementor-element-17f8a75>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
@@ -3239,6 +3239,11 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     font-weight: 400;
 }
 
+.elementor-element-0528ceb h4 {
+    color: #fff;
+    font-size: 28px;
+}
+
 .elementor-element-0528ceb h1 {
     font-size: 75px;
     letter-spacing: 5px;
@@ -3326,6 +3331,16 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
     position: absolute;
     top: 14%;
     right: 9%;
+}
+
+#roadmap {
+    height: 150vh;
+    overflow-y: auto;
+    padding-right: 14px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -3499,5 +3514,8 @@ body.rtl .elementor-9 .elementor-element.elementor-element-7412411 {
         top: -27px;
         right: -1%;
         width: 30%;
+    }
+    #roadmap {
+        padding: 0px 0px 0px 12px;
     }
 }
